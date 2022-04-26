@@ -15,6 +15,11 @@ body {
     font-family: 'Epilogue','sans-serif';
 }
 
+main {
+    max-width: 32.9rem;
+    margin: 0 auto;
+}
+
 main p:first-child {    
     color: #7158EF;
     letter-spacing: 0.3rem;
@@ -25,16 +30,37 @@ main p:first-child {
 }
 
 
-h1 {
+h1 {     
+    font-weight: 800;
     font-size: 4.0rem;
     line-height: 4.8rem;
-    color: #090039;    
-
+    color: #090039;   
     margin-bottom: 1.5rem;
 }
 
 ul {
-    list-style: none;
+    list-style: none;    
+}
+
+ul li {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #090039;
+    max-width: 29.7rem;
+    display: flex;
+    gap: 3.8rem;
+
+}
+
+ul li span {
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+    letter-spacing: -2px;
+    color: #090039;
+    width: 2.7rem;
+    
 }
 
 h1 + p {
