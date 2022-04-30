@@ -50,7 +50,10 @@ ul li {
     max-width: 29.7rem;
     display: flex;
     gap: 3.8rem;
+}
 
+ul li + li {
+    margin-top: 3.2rem;
 }
 
 ul li span {
@@ -81,4 +84,33 @@ a:hover {
 
 ul {
     margin-top: 7.2rem;
+}
+
+@media (min-width: 700px){
+    body {
+        padding: 8rem;
+    }
+
+    main {
+        max-width: 1021px;
+        display: flex;
+        gap: 10.6rem;
+    }
+
+    main > div {
+        max-width: 482px;
+    }
+
+    ul li {
+        max-width: 42.1rem;
+        display: flex;
+        gap: 5.5rem;
+        align-items: center;
+    }
+
+    ul li + li {
+        margin-top: 3.2rem;
+    }
+
+
 }
